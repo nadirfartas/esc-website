@@ -46,48 +46,48 @@ function NavBar() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
-              <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                 Home
+              <Nav.Link as={Link} to="/departments" onClick={() => updateExpanded(false)}>
+                 Departments
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/about"
+                to="/events"
                 onClick={() => updateExpanded(false)}
               >
-                 About
+                 Events
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/project"
+                to="/activities"
                 onClick={() => updateExpanded(false)}
               >
-                Projects
+                Activities
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/resume"
+                to="/blog"
                 onClick={() => updateExpanded(false)}
               >
-                Resume
+                ESC Blog
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
               <Nav.Link
-                href="/blog"
+                href="/about"
                 target="_blank"
                 rel="noreferrer"
               >
-              Blogs
+              About
               </Nav.Link>
             </Nav.Item>
           </Nav>
