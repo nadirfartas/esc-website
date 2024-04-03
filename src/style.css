@@ -266,7 +266,7 @@ html {
   
   .home-content {
     padding: 9rem 0 2rem !important;
-    color: whitesmoke;
+    color: rgb(0, 0, 0);
     text-align: left;
   }
   
@@ -281,7 +281,7 @@ html {
   }
   
   .main-name {
-    color: #cd5ff8;
+    color: #000000;
   }
   
   .Typewriter__wrapper {
@@ -324,7 +324,7 @@ html {
   }
   
   .home-about-description {
-    color: white !important;
+    color: rgb(0, 0, 0) !important;
     padding-top: 100px !important;
     padding-bottom: 20px !important;
     text-align: center;
@@ -339,7 +339,7 @@ html {
   .home-about-social {
     text-align: center !important;
     padding-top: 25px;
-    color: white !important;
+    color: rgb(0, 0, 0) !important;
   }
   
   .home-about-social-links {
@@ -358,7 +358,7 @@ html {
     text-align: center !important;
     font-size: 1.2em !important;
     line-height: 2em !important;
-    background: rgba(255, 255, 255, 0.972) !important;
+    background: rgba(0, 0, 0, 0.972) !important;
     border-radius: 50% !important;
     transition: 0.5s !important;
   }
@@ -402,7 +402,7 @@ html {
   /* Footer */
   /* --------- */
   .footer {
-    background-color: rgb(10, 4, 22);
+    background-color: #2B3077;
     bottom: 0 !important;
     padding-top: 10px !important;
     padding-bottom: 8px !important ;
