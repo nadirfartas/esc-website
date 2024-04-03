@@ -20,7 +20,7 @@
   }
   
   .departments {
-    background-image: url('/images/esc_snt.jpg');
+    background-color: blue;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -29,7 +29,7 @@
   }
   
   .events {
-    background-image: url('/images/esc_snt.jpg');
+    background-color: red;
     background-position: center;
     background-size: fill;
     background-repeat: no-repeat;
@@ -38,7 +38,7 @@
   }
 
   .activities {
-    background-image: url('/images/esc_snt.jpg');
+    background-color: aqua;
     background-position: center;
     background-size: fill;
     background-repeat: no-repeat;
@@ -47,7 +47,7 @@
   }
 
   .blog {
-    background-image: url('/images/esc_snt.jpg');
+    background-color: blueviolet;
     background-position: center;
     background-size: fill;
     background-repeat: no-repeat;
@@ -56,7 +56,7 @@
   }
 
   .about {
-    background-image: url('/images/esc_snt.jpg'); 
+    background-color: bisque; 
     background-position: center;
     background-size: fill;
     background-repeat: no-repeat;
@@ -65,7 +65,7 @@
   }
   
   .sign-up {
-    background-image: url('/images/esc_snt.jpg');
+    background-color: green;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
