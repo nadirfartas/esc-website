@@ -1,5 +1,5 @@
 import React from 'react';
-import '../App.css'
+import '../App.css';
 import { Button } from './Button';
 import './HeroSection.css';
 
@@ -25,7 +25,7 @@ function HeroSection() {
             </Button>
         </div>
     </div>
-  )
-}
+  );
+};
 
-export default HeroSection
+export default HeroSection;
