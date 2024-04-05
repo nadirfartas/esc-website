@@ -1,14 +1,14 @@
 html {
     --section-background-color: linear-gradient(
       to bottom left,
-      rgba(17, 16, 16, 0.582),
-      rgba(12, 8, 24, 0.904)
+      rgba(43, 48, 119, 1),
+      rgb(77, 82, 145)
     );
   
     --image-gradient: linear-gradient(
       to bottom left,
-      rgba(17, 16, 16, 0.678),
-      rgba(12, 10, 22, 0.863)
+      rgba(43, 48, 119, 1),
+      rgb(77, 82, 145)
     );
   
     --imp-text-color: #000000;
@@ -541,7 +541,34 @@ html {
   /* --------- */
   /* About */
   /* --------- */
-  
+  .BMs{
+    display: flex;
+    width: auto;
+    height: 1016px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px ;
+    background-color: #fff;
+    color: #2B3077;
+    text-align: center;
+    border: none;
+    border-radius: 25px;
+  }
+  .des{
+    display: block;
+    text-align: left;
+    margin-left: 10px;
+  }
+  .img-abt {
+    display: flex;
+    text-align: center;
+    border-radius: 25px;
+    width: 700px;
+    height: 700px;
+    margin-bottom: 200px;
+  }
   .about-section {
     position: relative !important;
     padding-top: 150px !important;
